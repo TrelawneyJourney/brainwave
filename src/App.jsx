@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
+import Services from "./components/Services";
 
 const App = () => {
   return (
