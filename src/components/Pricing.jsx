@@ -37,8 +37,16 @@ const Pricing = () => {
         {/**pricing list */}
         <div className="relative">
           <PricingList />
-          <LeftLine />
-          <RightLine />
+          {/* <LeftLine />
+          <RightLine /> */}
+        </div>
+        <div className="flex justify-center mt-10">
+          <a
+            href="/pricing"
+            className="text-xs font-code font-bold tracking-wider uppercase border-b "
+          >
+            See the full details
+          </a>
         </div>
       </div>
     </Section>
